@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="init()">
+    <div class="book-details"></div>
+    <div class="new-book-details"></div>
+    <div class="update-book-price"></div>
+    <div class="book-container">
+        <header>
+            <h1>Welcome to Paolo's Bookshop!</h1>
+        </header>
+        <div class="create-book" onclick="showAddBookModal()">Create new book</div>
+        <br>
+        <div class="tableheader">
+            <div class="book-id-head">Id</div>
+            <div class="book-name-head">Title:</div>
+            <div class="book-price-head">Price:</div>
+            <div class="actions-head">Actions:</div>
+        </div>
+        <div class="bookshop-table">
+        </div>
+    </div>
+    <script src="js/storageService.js"></script>
+    <script src="js/bookService.js"></script>
+    <script src="js/bookController.js"></script>
+</body>
+
+</html>

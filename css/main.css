@@ -1,0 +1,223 @@
+body {
+    background-image: url('../img/background.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.book-container {
+    border: 0px;
+    text-align: center;
+    font-family: Verdana;
+}
+
+header {
+    color:yellow;
+    font-family: cursive;
+}
+
+.tableheader {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tableheader div {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    height: 30px;
+    text-align: center;
+}
+
+.book-id-head {
+    background-color: lightslategray;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    width: 5%;
+}
+
+.book-name-head {
+    background-color: lightslategray;
+    border-right: 2px solid black;
+    width: 45%;
+}
+
+.book-price-head {
+    background-color: lightslategray;
+    width: 15%;
+}
+
+.actions-head {
+    background-color: lightslategray;    
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    width: 30%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80vw;
+}
+
+.book-id, .book-name, .book-price {
+    border-bottom: 2px solid black;
+    height: 30px;
+    text-align: center;
+}
+
+.book-name {
+    background-color: lightslategray;
+    width: 45%;
+    border-right: 2px solid black;
+}
+
+.book-price {
+    background-color: lightslategray;
+    width: 15%;
+}
+
+.actions {
+    background-color: lightslategray;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 2px solid black;
+}
+
+.book-id {
+    background-color: lightslategray;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    width: 5%;
+}
+
+.book-read, .book-update, .book-delete, .submit {
+    width: 70px;
+    height: 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center; 
+    margin: 2px;  
+}
+
+.book-delete {
+    cursor: default;
+    background-color: red;
+}
+
+.book-read {
+    cursor: default;
+    background-color: navy;
+}
+
+.book-update {
+    cursor: default;
+    background-color: gold;
+}
+
+.create-book {
+    font-size: smaller;
+    color: darkcyan;
+    cursor: pointer;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.book-details {
+    font-family: Verdana;  
+    margin: 8px;
+    border: 2px solid black;
+    display: none;
+    border-radius: 10px;
+    width: 350px;
+    height: 70%;
+    text-align: center;
+    background-color: grey;
+    color: black;
+    position: fixed;
+    bottom: 10%;
+    left: auto;
+    flex-direction: column;
+}
+
+.new-book-details {
+    font-family: Verdana;  
+    margin: 8px;
+    border: 2px solid black;
+    display: none;
+    border-radius: 10px;
+    width: 15%;
+    height: 200px;
+    background-color: grey;
+    color: black;
+    position: fixed;
+    bottom: 50%;
+    left: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.update-book-price {
+    font-family: Verdana;  
+    margin: 8px;
+    border: 2px solid black;
+    display: none;
+    border-radius: 10px;
+    width: 15%;
+    height: 130px;
+    background-color: grey;
+    color: black;
+    position: fixed;
+    bottom: 50%;
+    left: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modalrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.modalclose {
+    align-self: flex-end;
+}
+
+.modal-book-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.book-rate {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} 
+
+.book-rate span, .book-rate button {
+    margin: 2px;
+}
+
+.book-rate button {
+    border-radius: 10px;
+    background-color: rebeccapurple;
+    border-color: rebeccapurple;
+    color: yellow;
+}
